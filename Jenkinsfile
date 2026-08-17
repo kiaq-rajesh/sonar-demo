@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/inamulhasankiaq-devops/Demo_proj.git'
+                    url: 'https://github.com/kiaq-rajesh/sonar-demo'
             }
         }
 
